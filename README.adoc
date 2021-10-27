@@ -1,0 +1,17 @@
+# Touraine Tech Hello Asso Counts
+
+Counts for attendees in Hello Asso for TouraineTech: 
+
+ * need to be configured in a `config.json` file in `functions/` directory
+ * deployed using `firebase deploy --only functions`
+
+
+## `config.json` reference
+
+[source,json]
+----
+{
+ "clientId":"",
+ "clientSecret": ""
+}
+----
